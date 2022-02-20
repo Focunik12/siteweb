@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: 'bignoodletitling';
     src: url('font/bignoodletitling.ttf');
@@ -255,4 +256,263 @@ footer{
     color: #ffffff;
     font-family: "bignoodletitling";
     padding: 40px 0 30px;
+=======
+@font-face {
+    font-family: 'bignoodletitling';
+    src: url('font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.topheader{
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    background: white;
+    height: 100px;
+}
+.topheader p{
+    font-family: "bignoodletitling";
+}
+
+.body{
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 300;
+    color: #696969;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    bottom: auto;
+}
+
+.logo>a>img{
+    margin-top: -10px;
+    padding-right: 10px;
+    height: 60px;
+}
+.logo>a{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: #696969;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: initial;
+}
+
+.banner{
+    background: url(images/slider.jpeg) #696969;
+    background-blend-mode: multiply, normal;
+    background-size: cover;
+    display: flex;
+    color: #d6d5d5;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 3em;
+    font-family: "bignoodletitling";
+}
+
+.banner p{
+    font-size: 2em;
+}
+
+.scrolldown{
+    position: absolute;
+    left: calc(50% - 52px);
+    margin-top: 15%;
+}
+
+.scrolldown img{
+    margin-bottom: 20px;
+}
+
+.scrolldown p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.head_white_content{
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.head_white_content p{
+   padding: 20px 90px 0px;
+   color: #696969;
+
+}
+
+.head_white_content h3{
+    font-family: "bignoodletitling";
+}
+
+.head_white_content span{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #000000;
+    
+}
+
+.aboutus{
+    margin-bottom: 90px;
+}
+
+.advantage{
+    text-align: center;
+    width: 100%;
+    background: #f1c27d;
+    padding: 30px;
+    margin: 3% 0;
+    border-radius: 8px;
+}
+
+.advantage span{
+    font-size: 60px;
+    color: #080807;
+}
+
+.advantage h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: #000000;
+    padding: 25px 0 13px;
+}
+
+.advantage p{
+    color: #000000;
+    font-size: 14px;
+    line-height: 100%;
+}
+.somefutures{
+    background-color: #c68642;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 60px 0;
+    display: block;
+}
+.h4{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.head_black_content{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.head_black_content span{
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto 0;
+    background: #404040;
+}
+
+.numeral>div>span{
+    font-size: 60px;
+    color: #e0e0e0;
+}
+
+.numeral>div>p{
+    font-size: 15px;
+    color: #e0e0e0;
+    top: auto;
+    padding: 15px 0 13px;
+}
+
+.numeral>div>h5{
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    padding: 15px 0 13px;
+}
+.sinner1{
+    padding: 9% 5%;
+    text-align: center;
+    background: #000000;
+    min-height: 440px;
+}
+
+.sinner1 img{
+    margin: 0 auto;
+}
+
+.sinner1 a img{
+    display: inherit;
+    width: 40%;
+}
+
+.sinner1 h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.sinner2{
+    padding: 9% 5%;
+    background: #ebebeb;
+    min-height: 440px; 
+}
+
+.sinner2 h4{
+    font-family: "bignoodletitling";
+}
+.partners{
+    background: url(images/cbanner.jpg) no-repeat center center;
+    background-size: cover;
+    color: #f6f6f6;
+    padding: 30px 0;
+}
+.map{
+    text-align: center;
+    background: #1f282c;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 0 5px;
+}
+
+.map h3{
+        font-family: "bignoodletitling";
+}
+
+.map span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #999999;
+    font-size: 24px;
+    
+}
+
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+
+.accordion-close span::after{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}
+
+footer{
+    text-align: center;
+    background: #0e1316;
+    color: #ffffff;
+    font-family: "bignoodletitling";
+    padding: 40px 0 30px;
+>>>>>>> 72503ee9586d560f372c7866224d7033e9cf7594
 }
